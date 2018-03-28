@@ -1,0 +1,46 @@
+/*back ground of the Top navigation bar */
+.upper-half{
+  background-color: #f1f2f6;
+  height:100px;
+}
+
+/*Styles in top navigation bar*/
+.topnav {
+  overflow: hidden;
+  background-color: #f1f2f6;
+  margin-left: 65%;
+
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 5px 16px;
+  text-decoration: blink;
+  font-size: 15px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+
+  color: rgb(0, 206, 201);
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  color: black;
+  font-weight: 700;
+}
+
+/*Styles of signup/signin labels*/
+.signup{
+  margin-left:75%;
+
+}
+.signup label{
+  padding: 15px 10px;
+  font-size: small;
+
+}
